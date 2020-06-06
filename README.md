@@ -25,4 +25,4 @@ From that point, you can run this
 vi .ssh/id_rsa.pub
 ```
 
-Then highlight all of the content in that file and press `ctrl-shift-c`. Then follow the instructions in step 2 from [this page](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account). Now you should be able to interact with your GitHub from this container as you normally would from your host. For instance, the file `git-clone.sh` has example that you can modify.
+Then highlight all of the content in that file and press `ctrl-shift-c`. Then follow the instructions in step 2 from [this page](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account). Now you should be able to interact with your GitHub account from this container as you normally would from your host. For instance, the file `git-clone.sh` has an example that you can modify.
